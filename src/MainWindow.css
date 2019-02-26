@@ -1,0 +1,53 @@
+.parallelogram {
+    position: absolute;
+    z-index: 1;
+	width: 90vw;
+	height: 40vw;
+    transform: skew(-45deg);
+    margin-left: -45%;
+	background: rgb(109, 114, 116);
+}
+
+.name{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 3%;
+    font-size: 5vw;
+    z-index: 2
+}
+
+.title{
+    animation: 1.5s ease-out 0s 1 slideInFromLeft2;
+    position: absolute;
+    margin-top: 15.5%;
+    margin-left: 52%;
+    font-size: 4vw;
+    z-index: 1;
+    color: rgb(109, 114, 116);
+}
+
+.rectangle {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    position: relative;
+    width: 100vw;
+    height: 40vw;
+    background: rgb(0, 0, 0);
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromLeft2 {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

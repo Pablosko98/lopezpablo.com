@@ -1,14 +1,14 @@
 {
-  "main.css": "/lopezpablo/static/css/main.50b57c74.chunk.css",
-  "main.js": "/lopezpablo/static/js/main.66c10774.chunk.js",
-  "main.js.map": "/lopezpablo/static/js/main.66c10774.chunk.js.map",
-  "runtime~main.js": "/lopezpablo/static/js/runtime~main.85426ae8.js",
-  "runtime~main.js.map": "/lopezpablo/static/js/runtime~main.85426ae8.js.map",
-  "static/js/2.5bf9b2cd.chunk.js": "/lopezpablo/static/js/2.5bf9b2cd.chunk.js",
-  "static/js/2.5bf9b2cd.chunk.js.map": "/lopezpablo/static/js/2.5bf9b2cd.chunk.js.map",
-  "index.html": "/lopezpablo/index.html",
-  "precache-manifest.169302b027217862c16f11513ae7f3f6.js": "/lopezpablo/precache-manifest.169302b027217862c16f11513ae7f3f6.js",
-  "service-worker.js": "/lopezpablo/service-worker.js",
-  "static/css/main.50b57c74.chunk.css.map": "/lopezpablo/static/css/main.50b57c74.chunk.css.map",
-  "static/media/logo.svg": "/lopezpablo/static/media/logo.5d5d9eef.svg"
+  "main.css": "lopezpablo.com/static/css/main.50b57c74.chunk.css",
+  "main.js": "lopezpablo.com/static/js/main.d0344ef3.chunk.js",
+  "main.js.map": "lopezpablo.com/static/js/main.d0344ef3.chunk.js.map",
+  "runtime~main.js": "lopezpablo.com/static/js/runtime~main.d960b746.js",
+  "runtime~main.js.map": "lopezpablo.com/static/js/runtime~main.d960b746.js.map",
+  "static/js/2.5bf9b2cd.chunk.js": "lopezpablo.com/static/js/2.5bf9b2cd.chunk.js",
+  "static/js/2.5bf9b2cd.chunk.js.map": "lopezpablo.com/static/js/2.5bf9b2cd.chunk.js.map",
+  "index.html": "lopezpablo.com/index.html",
+  "precache-manifest.81ac3b30df0e7f06d3e3fe7ec97005d0.js": "lopezpablo.com/precache-manifest.81ac3b30df0e7f06d3e3fe7ec97005d0.js",
+  "service-worker.js": "lopezpablo.com/service-worker.js",
+  "static/css/main.50b57c74.chunk.css.map": "lopezpablo.com/static/css/main.50b57c74.chunk.css.map",
+  "static/media/logo.svg": "lopezpablo.com/static/media/logo.5d5d9eef.svg"
 }

@@ -1,4 +1,5 @@
 .parallelogram {
+    animation: 1s ease-out 0s 1 slideInFromLeftTilted;
     position: absolute;
     z-index: 1;
 	width: 90vw;
@@ -9,6 +10,7 @@
 }
 
 .name{
+    animation: 1s ease-out 0s 1 slideInFromLeftName;
     position: absolute;
     margin-top: 15%;
     margin-left: 3%;
@@ -17,7 +19,7 @@
 }
 
 .title{
-    animation: 1.5s ease-out 0s 1 slideInFromLeft2;
+    animation: 1.2s ease-out 0s 1 slideInFromLeftTitle;
     position: absolute;
     margin-top: 15.5%;
     margin-left: 52%;
@@ -43,11 +45,27 @@
     }
   }
 
-  @keyframes slideInFromLeft2 {
+  @keyframes slideInFromLeftTitle {
     0% {
       transform: translateX(-200%);
     }
     100% {
       transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromLeftName {
+    0% {
+      transform: translateX(-40%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromLeftTilted {
+    0% {
+      transform: translateX(-40%) skew(-45deg);
+    }
+    100% {
+      transform: translateX(0) skew(-45deg);
     }
   }

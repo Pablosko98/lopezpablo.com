@@ -1,4 +1,13 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import DeleteIcon from '@material-ui/icons/Delete';
+import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
+import IconButton from '@material-ui/core/IconButton';
+
 import './MainWindow.css';
 
 class MainWindow extends Component {
@@ -6,15 +15,19 @@ class MainWindow extends Component {
     super();
     this.state={
       coordinates: [],
-      value: ''
+      valuex: '',
+      valuey: ''
     }
-    this.handleChange = this.handleChange.bind(this);
+    this.handleChangex = this.handleChangex.bind(this);
+    this.handleChangey = this.handleChangey.bind(this);
+    this.deleteCave = this.deleteCave.bind(this);
+    this.showCave = this.showCave.bind(this);
+    this.hideCave = this.hideCave.bind(this);
   }
 
   createCave(x, y){
-
     let cave = (
-      <div className='circle1' style={{'grid-column-start': `${x}`, 'grid-row-start': `${y}`}}></div>);
+      <div className='circle1' id={`${x}${y}`} style={{'grid-column-start': `${x}`, 'grid-row-start': `${y}`}}></div>);
     return cave;
   }
 
@@ -36,15 +49,75 @@ class MainWindow extends Component {
     return grid;
   }
 
-  addCave(){
-    let coords = this.state.value.split(',');
-    console.log(this.state.coordinates);
-    this.state.coordinates.push([parseInt(coords[0]), parseInt(coords[1])]);
+  deleteCave(value){
+    var index = this.state.coordinates.indexOf(value);
+    if (index !== -1) this.state.coordinates.splice(index, 1);
     this.forceUpdate();
   }
 
-  handleChange(event){
-    this.setState({value: event.target.value});
+  showCave(value){
+    let highlight = document.getElementById(value[0]+value[1]);
+    highlight.classList.add('red');
+  }
+
+  hideCave(value){
+    let highlight = document.getElementById(value[0]+value[1]);
+    highlight.classList.remove('red');
+  }
+
+  addCave(){
+    if (this.state.valuex > 20 || this.state.valuex < 1){
+
+    } else if (this.state.valuey > 20 || this.state.valuey < 1){
+
+    } else {
+      let duplicate = false;
+      let counter = 0;
+      if(this.state.coordinates.length < 1){
+        this.state.coordinates.push([this.state.valuex, this.state.valuey]);
+        this.setState({valuey: '', valuex: ''})
+      } else {
+      this.state.coordinates.forEach(coord => {
+        counter++;
+        if(coord[0] === this.state.valuex && coord[1] === this.state.valuey){
+          duplicate = true;
+        }
+        if(!duplicate && counter === this.state.coordinates.length){
+          this.state.coordinates.push([this.state.valuex, this.state.valuey]);
+          this.setState({valuey: '', valuex: ''})
+          }
+      });
+    }
+    }
+  }
+
+  handleChangex(event){
+    this.setState({valuex: event.target.value});
+  }
+
+  handleChangey(event){
+    this.setState({valuey: event.target.value});
+  }
+
+  populateList(){
+    let list = [];
+    let items = [];
+    let counter= 0;
+    this.state.coordinates.forEach(coord => {
+      items.push(
+      <ListItem onMouseEnter={() => this.showCave(coord)} onMouseLeave={() => this.hideCave(coord)}>
+        <ListItemText
+          primary={`${++counter}. [${coord[0]}-${coord[1]}]`}
+        />
+        <ListItemSecondaryAction>
+                      <IconButton aria-label="Delete" onClick={() => this.deleteCave(coord)}>
+                        <DeleteIcon />
+                      </IconButton>
+                    </ListItemSecondaryAction>
+      </ListItem>)});
+    list.push(<List className='caveList'>{items}</List>);
+    return(list);
+
   }
 
   render() {
@@ -56,11 +129,35 @@ class MainWindow extends Component {
         <div className="rectangle"></div>
         <div className='grid'>
         {this.populateGrid()}
+        <TextField
+          id="standard-number"
+          label="Enter x"
+          type="number"
+          value={this.state.valuex}
+          className={'caveInputx'}
+          InputLabelProps={{
+            shrink: true,
+          }}
+          margin="normal"
+          onChange={this.handleChangex}
+          InputProps={{ inputProps: { min: 1, max: 20 } }}
+        />
+        <TextField
+          id="standard-number"
+          label="Enter y"
+          value={this.state.valuey}
+          type="number"
+          className={'caveInputy'}
+          InputLabelProps={{
+            shrink: true,
+          }}
+          margin="normal"
+          onChange={this.handleChangey}
+          InputProps={{ inputProps: { min: 1, max: 20 } }}
+        />
+        <Button className='addCave' color="primary" variant="contained" onClick={() => this.addCave()}>Add cavern</Button>
+        {this.populateList()}
         </div>
-        <input type="text" className="caveInput" onChange={this.handleChange}/>
-        <button className='addCave' onClick={() => this.addCave()}>Add cave</button>
-        <text className='caveList'>{
-          this.state.coordinates}</text>
         </div>
     );
   }

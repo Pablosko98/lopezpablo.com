@@ -37,7 +37,11 @@
 }
 
 .grid{
-  display: inline-block;
+  display: grid;
+  grid-column-gap: 1vw;
+  grid-row-gap: 4vh;  
+  grid-template-columns: 50vw 11vw 10vw 20vw;
+  grid-template-rows: 1vh 5vw 3vw 8vw;
 }
 
 .gridContainer{
@@ -46,8 +50,8 @@
   height: 20vw;
   margin-left: 3vw;
   margin-top: 3vw;
-  grid-template-columns: repeat(20, 2vw);
-  grid-template-rows: repeat(20, 1vw);
+  grid-template-columns: repeat(40, 2vw);
+  grid-template-rows: repeat(40, 1vw);
   margin-bottom: 5vh;
   overflow: hidden;
 }
@@ -79,15 +83,41 @@
 }
 
 .addCave{
-  display: inline-block;
-  margin-left: 1vw;
-  width: 10vw;
-  height: 5vh;
+  grid-row: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
-.caveInput{
-  margin-left: 1vw;
-  display: inline-block;
+.caveInputx{
+  grid-column-start: 2;
+  grid-row: 2;
+}
+
+.caveInputy{
+  grid-column-start: 3;
+  grid-row: 2;
+}
+
+.formGrid{
+  width: 25vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.caveList{
+  height: 20vw;
+  overflow-y: scroll;
+  grid-row-start: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.red{
+  background-color: red;
+}
+
+.MuiListItem-container-94:hover{
+  background: rgb(109, 114, 116);
 }
 
 @keyframes slideInFromLeft {

@@ -1,0 +1,15 @@
+.cv {
+    width: 43vw;
+    height: 100vh;
+    display: inline-block;
+}
+
+.linkedin {
+    display: inline;
+}
+
+.LI-profile-badge{
+    width: 400;
+    margin-right: 5vw;
+    float: left;
+}

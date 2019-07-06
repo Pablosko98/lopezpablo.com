@@ -212,8 +212,21 @@ i {
   }
 
   @media (max-width: 976px) {
+
+    .name {
+      font-size: 6vw;
+    }
+
+    .title {
+      font-size: 6vw;
+    }
+
+    .rectangle {
+      height: 100vh;
+  }
+
     h1 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
     .text {
       font-size: 1.3rem;

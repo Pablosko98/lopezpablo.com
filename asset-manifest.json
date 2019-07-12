@@ -1,14 +1,22 @@
 {
-  "main.css": "/static/css/main.3b11bef0.chunk.css",
-  "main.js": "/static/js/main.60bdd438.chunk.js",
-  "main.js.map": "/static/js/main.60bdd438.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/js/2.5ec21d73.chunk.js": "/static/js/2.5ec21d73.chunk.js",
-  "static/js/2.5ec21d73.chunk.js.map": "/static/js/2.5ec21d73.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.6948d5ed893b6f636837bfd9e88e9fef.js": "/precache-manifest.6948d5ed893b6f636837bfd9e88e9fef.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.3b11bef0.chunk.css.map": "/static/css/main.3b11bef0.chunk.css.map",
-  "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg"
+  "files": {
+    "main.css": "/static/css/main.aa2b6d46.chunk.css",
+    "main.js": "/static/js/main.9b55471c.chunk.js",
+    "main.js.map": "/static/js/main.9b55471c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.3c3492b3.chunk.js": "/static/js/2.3c3492b3.chunk.js",
+    "static/js/2.3c3492b3.chunk.js.map": "/static/js/2.3c3492b3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.988d7c2bb68c23ccd4d1c24a53495fdf.js": "/precache-manifest.988d7c2bb68c23ccd4d1c24a53495fdf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.aa2b6d46.chunk.css.map": "/static/css/main.aa2b6d46.chunk.css.map",
+    "static/media/Blockchain.png": "/static/media/Blockchain.95c1aca5.png",
+    "static/media/Cognitive.png": "/static/media/Cognitive.957393e9.png",
+    "static/media/DesignThinking1.png": "/static/media/DesignThinking1.8810ba5c.png",
+    "static/media/DesignThinking2.png": "/static/media/DesignThinking2.ce375206.png",
+    "static/media/Docker.png": "/static/media/Docker.8877ff01.png",
+    "static/media/Security.png": "/static/media/Security.955f74af.png",
+    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg"
+  }
 }

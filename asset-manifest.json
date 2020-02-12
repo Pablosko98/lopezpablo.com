@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa2b6d46.chunk.css",
-    "main.js": "/static/js/main.9b55471c.chunk.js",
-    "main.js.map": "/static/js/main.9b55471c.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.3c3492b3.chunk.js": "/static/js/2.3c3492b3.chunk.js",
-    "static/js/2.3c3492b3.chunk.js.map": "/static/js/2.3c3492b3.chunk.js.map",
+    "main.css": "/static/css/main.46cd9c6e.chunk.css",
+    "main.js": "/static/js/main.69559bd0.chunk.js",
+    "main.js.map": "/static/js/main.69559bd0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e37e0258.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e37e0258.js.map",
+    "static/js/2.36dc1dc5.chunk.js": "/static/js/2.36dc1dc5.chunk.js",
+    "static/js/2.36dc1dc5.chunk.js.map": "/static/js/2.36dc1dc5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.988d7c2bb68c23ccd4d1c24a53495fdf.js": "/precache-manifest.988d7c2bb68c23ccd4d1c24a53495fdf.js",
+    "precache-manifest.9b2b024f312b5e56fee52fb6b18e9e27.js": "/precache-manifest.9b2b024f312b5e56fee52fb6b18e9e27.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.aa2b6d46.chunk.css.map": "/static/css/main.aa2b6d46.chunk.css.map",
-    "static/media/Blockchain.png": "/static/media/Blockchain.95c1aca5.png",
-    "static/media/Cognitive.png": "/static/media/Cognitive.957393e9.png",
-    "static/media/DesignThinking1.png": "/static/media/DesignThinking1.8810ba5c.png",
-    "static/media/DesignThinking2.png": "/static/media/DesignThinking2.ce375206.png",
-    "static/media/Docker.png": "/static/media/Docker.8877ff01.png",
-    "static/media/Security.png": "/static/media/Security.955f74af.png",
-    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg"
-  }
+    "static/css/main.46cd9c6e.chunk.css.map": "/static/css/main.46cd9c6e.chunk.css.map",
+    "static/js/2.36dc1dc5.chunk.js.LICENSE.txt": "/static/js/2.36dc1dc5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e37e0258.js",
+    "static/js/2.36dc1dc5.chunk.js",
+    "static/css/main.46cd9c6e.chunk.css",
+    "static/js/main.69559bd0.chunk.js"
+  ]
 }

@@ -1,29 +1,20 @@
 {
-  "files": {
-    "main.css": "/static/css/main.0f39b336.chunk.css",
-    "main.js": "/static/js/main.148fbeaa.chunk.js",
-    "main.js.map": "/static/js/main.148fbeaa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e37e0258.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e37e0258.js.map",
-    "static/js/2.ddf97b33.chunk.js": "/static/js/2.ddf97b33.chunk.js",
-    "static/js/2.ddf97b33.chunk.js.map": "/static/js/2.ddf97b33.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.bf85f746d1da7235a4beca094525e4e4.js": "/precache-manifest.bf85f746d1da7235a4beca094525e4e4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0f39b336.chunk.css.map": "/static/css/main.0f39b336.chunk.css.map",
-    "static/js/2.ddf97b33.chunk.js.LICENSE.txt": "/static/js/2.ddf97b33.chunk.js.LICENSE.txt",
-    "static/media/Blockchain.png": "/static/media/Blockchain.95c1aca5.png",
-    "static/media/Cognitive.png": "/static/media/Cognitive.957393e9.png",
-    "static/media/DesignThinking1.png": "/static/media/DesignThinking1.8810ba5c.png",
-    "static/media/DesignThinking2.png": "/static/media/DesignThinking2.ce375206.png",
-    "static/media/Docker.png": "/static/media/Docker.8877ff01.png",
-    "static/media/Security.png": "/static/media/Security.955f74af.png",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.e37e0258.js",
-    "static/js/2.ddf97b33.chunk.js",
-    "static/css/main.0f39b336.chunk.css",
-    "static/js/main.148fbeaa.chunk.js"
-  ]
+  "main.css": "/static/css/main.0794f3d1.chunk.css",
+  "main.js": "/static/js/main.7a1d7be7.chunk.js",
+  "main.js.map": "/static/js/main.7a1d7be7.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.02342793.chunk.js": "/static/js/2.02342793.chunk.js",
+  "static/js/2.02342793.chunk.js.map": "/static/js/2.02342793.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.8cbf3cb4dace6565bb0a9d20d8e0c795.js": "/precache-manifest.8cbf3cb4dace6565bb0a9d20d8e0c795.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.0794f3d1.chunk.css.map": "/static/css/main.0794f3d1.chunk.css.map",
+  "static/media/Blockchain.png": "/static/media/Blockchain.95c1aca5.png",
+  "static/media/Cognitive.png": "/static/media/Cognitive.957393e9.png",
+  "static/media/DesignThinking1.png": "/static/media/DesignThinking1.8810ba5c.png",
+  "static/media/DesignThinking2.png": "/static/media/DesignThinking2.ce375206.png",
+  "static/media/Docker.png": "/static/media/Docker.8877ff01.png",
+  "static/media/Security.png": "/static/media/Security.955f74af.png",
+  "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg"
 }

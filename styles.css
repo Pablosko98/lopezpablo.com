@@ -34,3 +34,10 @@ p {
     height: 100rem;
     width: 90vh;
 }
+
+@media (max-width: 768px) {
+    .resume {
+        width: 100%;
+        height: 90vh;
+    }
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.construction-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.funny-emoji {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.resume {
+    height: 100rem;
+    width: 90vh;
+}
